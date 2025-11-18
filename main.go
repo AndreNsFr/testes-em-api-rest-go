@@ -6,6 +6,8 @@ import (
 	"crud-produtos/controller"
 )
 
+// função de exemplo:
+
 func postHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, "Método não permitido", http.StatusMethodNotAllowed)
